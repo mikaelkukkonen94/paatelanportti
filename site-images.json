@@ -1,0 +1,109 @@
+{
+  "updated": "2026-07-02",
+  "images": [
+    {
+      "key": "hero",
+      "label": "Etusivun herokuva",
+      "src": "terassi-sisaan-tulo.jpeg",
+      "alt": "Paatelan Portin sisäänkäynti ja terassi kanavan vieressä"
+    },
+    {
+      "key": "place",
+      "label": "Kanavan vieressä -kuva",
+      "src": "ravintola-sisaanmeno.jpeg",
+      "alt": "Paatelan Portin sisäänkäynti ja julkisivu kanavan vieressä"
+    },
+    {
+      "key": "menu-coffee",
+      "label": "Kahvio-kortin kuva",
+      "src": "kahvio-menu-taulu.jpeg",
+      "alt": "Paatelan Portin kahvion vitriini ja menu"
+    },
+    {
+      "key": "menu-pizza",
+      "label": "Pizza-kortin kuva",
+      "src": "talon-pizza.jpeg",
+      "alt": "Paatelan Portin talon pizza"
+    },
+    {
+      "key": "menu-wings",
+      "label": "Keittiön suosikit -kortin kuva",
+      "src": "hot-wings.jpeg",
+      "alt": "Paatelan Portin hot wings -annos kasviksilla ja dipillä"
+    },
+    {
+      "key": "gallery-interior",
+      "label": "Galleria: sisätila",
+      "src": "sisatila-juhlat.jpeg",
+      "alt": "Paatelan Portin sisätila pöytineen ja kanavanäkymällä",
+      "caption": "Sisätilat sopivat kahvitteluun, ruokailuun ja juhlatilaisuuksiin."
+    },
+    {
+      "key": "gallery-waterfront",
+      "label": "Galleria: ravintola rannasta",
+      "src": "ravintola-rannasta.webp",
+      "alt": "Paatelan Portti kuvattuna veden ääreltä",
+      "caption": "Ravintola sijaitsee aivan veden ja kanavamaiseman äärellä."
+    },
+    {
+      "key": "gallery-wings",
+      "label": "Galleria: hot wings",
+      "src": "hot-wings.jpeg",
+      "alt": "Hot wings -annos",
+      "caption": "Hot wingsit sopivat iltaan, juhliin ja jaettavaksi porukalle."
+    },
+    {
+      "key": "gallery-pizza",
+      "label": "Galleria: pizza",
+      "src": "talon-pizza.jpeg",
+      "alt": "Talon pizza",
+      "caption": "Talon pizzat saat normaalina tai isona."
+    },
+    {
+      "key": "gallery-terrace-view",
+      "label": "Galleria: kanavaterassi",
+      "src": "kanavaterassi.jpeg",
+      "alt": "Paatelan Portin terassi kanavan äärellä"
+    },
+    {
+      "key": "gallery-terrace-inside",
+      "label": "Galleria: terassi sisältä",
+      "src": "terassi-asiakkaat-sisalta.jpeg",
+      "alt": "Paatelan Portin terassi ravintolan sisältä nähtynä",
+      "caption": "Terassi kokoaa porukan yhteen kanavan äärellä."
+    },
+    {
+      "key": "gallery-terrace-group",
+      "label": "Galleria: asiakkaita terassilla",
+      "src": "terassi-porukka.jpeg",
+      "alt": "Asiakkaita Paatelan Portin terassilla",
+      "caption": "Rento pysähdys kahville, ruoalle tai ajoporukan tapaamiseen. Motoristi kahvi 1,75 €."
+    },
+    {
+      "key": "gallery-pizza-group",
+      "label": "Galleria: pizzaa terassilla",
+      "src": "terassi-pizza-porukka.jpeg",
+      "alt": "Pizzaa ja juomia Paatelan Portin terassilla",
+      "caption": "Pizza, juomat ja terassitunnelma sopivat hyvin porukkailtoihin."
+    },
+    {
+      "key": "gallery-trampoline",
+      "label": "Galleria: trampoliini",
+      "src": "pihatrampoliini.jpeg",
+      "alt": "Paatelan Portin pihan trampoliini",
+      "caption": "Pihalta löytyy tekemistä myös perheen pienemmille."
+    },
+    {
+      "key": "event-4k-band",
+      "label": "Tapahtumajuliste: 4K Band",
+      "src": "4k-band-paatelan-portti.jpg",
+      "alt": "4K Band Paatelan Portissa lauantaina 4.7. klo 21. Kautto, Kosonen, Kurtti ja Kurtti."
+    },
+    {
+      "key": "event-tanssit",
+      "label": "Tapahtumajuliste: tanssit",
+      "src": "tanssit-paatelan-portissa.jpg",
+      "alt": "Tanssit Paatelan Portissa lauantaina 1.8.2026 klo 20.30. Äänekosken harmonikat, solisteina Rauni Parantainen ja Kari Heinonen. Liput 10 euroa."
+    }
+  ]
+}

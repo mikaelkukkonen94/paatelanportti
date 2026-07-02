@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <title>Paatelan Portti lomakkeet</title>
+  </head>
+  <body>
+    <form name="tilaisuus-tarjouspyynto" method="POST" data-netlify="true" netlify data-netlify-honeypot="bot-field" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="tilaisuus-tarjouspyynto">
+      <input name="bot-field">
+      <input type="text" name="name">
+      <input type="email" name="email">
+      <input type="tel" name="phone">
+      <input type="text" name="date">
+      <select name="eventType">
+        <option>Yksityistapahtuma</option>
+        <option>Polttarit</option>
+        <option>Häät</option>
+        <option>Syntymäpäivät</option>
+        <option>Pienet festarit</option>
+        <option>Muu tilaisuus</option>
+      </select>
+      <input type="number" name="guests">
+      <textarea name="message"></textarea>
+    </form>
+
+    <form name="asiakaspalaute" method="POST" data-netlify="true" netlify data-netlify-honeypot="feedback-bot-field" netlify-honeypot="feedback-bot-field" hidden>
+      <input type="hidden" name="form-name" value="asiakaspalaute">
+      <input name="feedback-bot-field">
+      <input type="text" name="name">
+      <input type="email" name="email">
+      <textarea name="message"></textarea>
+    </form>
+  </body>
+</html>

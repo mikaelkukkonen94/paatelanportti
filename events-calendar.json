@@ -1,0 +1,35 @@
+{
+  "updated": "2026-06-30",
+  "items": [
+    {
+      "day": "Torstaisin",
+      "time": "klo 18.00",
+      "title": "Kanavakaraoke",
+      "description": "Vetäjänä tuttu Timo Kolu."
+    },
+    {
+      "day": "Perjantaisin",
+      "time": "klo 20.00",
+      "title": "Karaoke",
+      "description": "Karaoken tuottaa AJ Viihde."
+    },
+    {
+      "day": "La 4.7.2026",
+      "time": "klo 21.00",
+      "title": "4K Band Paatelan Portissa",
+      "description": "Musiikkia parhaalla mahdollisella kuvalaadulla - eli livenä! Kautto, Kosonen, Kurtti ja Kurtti."
+    },
+    {
+      "day": "La 1.8.2026",
+      "time": "klo 20.30",
+      "title": "Tanssit Paatelan Portissa",
+      "description": "Äänekosken harmonikat, solisteina Rauni Parantainen ja Kari Heinonen. Liput 10 €, tervetuloa!"
+    },
+    {
+      "day": "Lauantaisin",
+      "time": "illalla",
+      "title": "Tanssi-iltoja ja elävää musiikkia",
+      "description": "Viikonlopun esiintyjät ja ohjelma päivitetään tähän tarpeen mukaan."
+    }
+  ]
+}

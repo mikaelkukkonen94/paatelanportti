@@ -1,0 +1,76 @@
+backend:
+  name: git-gateway
+  branch: main
+
+locale: fi
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "paatelan_sisalto"
+    label: "Paatelan Portin sisältö"
+    files:
+      - name: "weekly_menu"
+        label: "Viikon lounaslista"
+        file: "weekly-menu.json"
+        format: "json"
+        fields:
+          - { label: "Päivitetty", name: "updated", widget: "string", required: false }
+          - label: "Lounaat"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Päivä", name: "day", widget: "string" }
+              - { label: "Lounas", name: "menu", widget: "string" }
+
+      - name: "events_calendar"
+        label: "Tapahtumakalenteri"
+        file: "events-calendar.json"
+        format: "json"
+        fields:
+          - { label: "Päivitetty", name: "updated", widget: "string", required: false }
+          - label: "Tapahtumat"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Päivä", name: "day", widget: "string" }
+              - { label: "Aika", name: "time", widget: "string" }
+              - { label: "Otsikko", name: "title", widget: "string" }
+              - { label: "Kuvaus", name: "description", widget: "text", required: false }
+
+      - name: "food_menu"
+        label: "Ruokalista ja hinnat"
+        file: "food-menu.json"
+        format: "json"
+        fields:
+          - { label: "Päivitetty", name: "updated", widget: "string", required: false }
+          - label: "Osastot"
+            name: "sections"
+            widget: "list"
+            fields:
+              - { label: "Tunniste", name: "id", widget: "select", options: ["coffee", "kitchen"] }
+              - { label: "Otsikko", name: "title", widget: "string" }
+              - label: "Tuotteet"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Nimi", name: "name", widget: "string" }
+                  - { label: "Hinta", name: "price", widget: "string", required: false }
+                  - { label: "Tyyppi", name: "type", widget: "select", options: ["product", "heading"], default: "product", required: false }
+
+      - name: "site_images"
+        label: "Sivuston kuvat"
+        file: "site-images.json"
+        format: "json"
+        fields:
+          - { label: "Päivitetty", name: "updated", widget: "string", required: false }
+          - label: "Kuvat"
+            name: "images"
+            widget: "list"
+            summary: "{{fields.label}}"
+            fields:
+              - { label: "Kuvan paikka", name: "label", widget: "string" }
+              - { label: "Tekninen tunniste", name: "key", widget: "string", hint: "Älä muuta tätä, jotta kuva päivittyy oikeaan kohtaan sivulla." }
+              - { label: "Kuva", name: "src", widget: "image" }
+              - { label: "Alt-teksti", name: "alt", widget: "string", required: false }
+              - { label: "Kuvateksti", name: "caption", widget: "text", required: false }

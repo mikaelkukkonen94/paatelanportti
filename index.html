@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Paatelan Portti on Suolahdessa kanavamaisemassa palveleva ravintola, kahvio ja lounaspaikka.">
+    <title>Paatelan Portti | Ravintola Suolahdessa</title>
+    <link rel="preload" href="terassi-sisaan-tulo.jpeg" as="image">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div hidden>
+      <form name="tilaisuus-tarjouspyynto" method="POST" data-netlify="true" netlify data-netlify-honeypot="bot-field" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="tilaisuus-tarjouspyynto">
+        <input name="bot-field">
+        <input type="text" name="name">
+        <input type="email" name="email">
+        <input type="tel" name="phone">
+        <input type="text" name="date">
+        <select name="eventType">
+          <option>Yksityistapahtuma</option>
+        </select>
+        <input type="number" name="guests">
+        <textarea name="message"></textarea>
+      </form>
+      <form name="asiakaspalaute" method="POST" data-netlify="true" netlify data-netlify-honeypot="feedback-bot-field" netlify-honeypot="feedback-bot-field">
+        <input type="hidden" name="form-name" value="asiakaspalaute">
+        <input name="feedback-bot-field">
+        <input type="text" name="name">
+        <input type="email" name="email">
+        <textarea name="message"></textarea>
+      </form>
+    </div>
+
+    <header class="site-header" aria-label="Päävalikko">
+      <a class="brand" href="#alku" aria-label="Paatelan Portti etusivulle">
+        <img class="brand-logo" src="paatelanportti-logo.jpeg" alt="" aria-hidden="true">
+        <span>Paatelan Portti</span>
+      </a>
+      <nav class="nav-links" aria-label="Sivun osiot">
+        <a href="#menu">Ruoka</a>
+        <a href="#hinnasto">Menut</a>
+        <a href="#kuvat">Kuvat</a>
+        <a href="#tilaisuudet">Tilaisuudet</a>
+        <a href="#yhteys">Yhteys</a>
+      </nav>
+    </header>
+
+    <main id="alku">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" data-image-key="hero" aria-hidden="true"></div>
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Kanavamaiseman ravintola vuodesta 1994</p>
+          <h1 id="hero-title">Paatelan Portti</h1>
+          <div class="hero-actions">
+            <a class="button primary" href="tel:+358407557155">Soita ja tilaa</a>
+            <a class="button primary whatsapp-button" href="https://wa.me/358407557155" target="_blank" rel="noopener">WhatsApp 040 755 7155</a>
+            <a class="button secondary" href="#menu">Katso tarjonta</a>
+          </div>
+          <dl class="hero-facts" aria-label="Paatelan Portin pikatiedot">
+            <div>
+              <dt>Osoite</dt>
+              <dd>Äänekoskentie 842</dd>
+            </div>
+            <div>
+              <dt>Lounas</dt>
+              <dd>10.30-15.30</dd>
+            </div>
+            <div>
+              <dt>Tilaukset</dt>
+              <dd>040 755 7155</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section id="tarina" class="story-section">
+        <div class="content-grid">
+          <div>
+            <p class="section-kicker">Tervetuloa rantamaisemiin</p>
+            <h2>Tarina Paatelan Portin takana</h2>
+            <div class="story-copy">
+              <p>
+                Paatelan kanava avattiin vuonna 1994 ja samaan aikaan avattiin
+                myös ravintola Paatelan Portti. Uusi kanava oli suuressa suosiossa
+                turistien keskuudessa. Ravintolasta järjestettiin
+                suunnittelukilpailu, jonka voitti Aarne Ilveksen rakennusliike,
+                joka myös toteutti ravintolan. Toiminta jäi Aarnelle ja hänen
+                puolisolleen heti alusta alkaen.
+              </p>
+              <p>
+                Ravintolan rinnalle avattiin Suvetar-niminen sisävesiristeilijä,
+                joka aloitti liikennöinnin Keiteleellä. Nykyään laiva on Suvi
+                Express, jota Aarne isännöi kotisatamassaan Paatelan Portin
+                laiturilla. Laivassa on anniskeluoikeudet, ja se liikennöi
+                Keiteleen lisäksi myös Päijänteellä.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="place-feature">
+          <img data-image-key="place" src="ravintola-sisaanmeno.jpeg" alt="Paatelan Portin sisäänkäynti ja julkisivu kanavan vieressä">
+          <div class="place-copy">
+            <p class="section-kicker">Kanavan vieressä</p>
+            <h3>Helppo pysähtyä kahville, lounaalle tai iltaruoalle.</h3>
+            <p>
+              Paatelan Portti palvelee Äänekoskentie 842:ssa, veden ja kesäisen
+              rantamaiseman äärellä.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="highlights-section" aria-label="Paatelan Portin kohokohdat">
+        <article>
+          <strong>Vitriinistä mukaan</strong>
+          <span>Sämpylät, toastit, paninit ja kahvit myös nopeaan pysähdykseen.</span>
+        </article>
+        <article>
+          <strong>Lounasaikaan</strong>
+          <span>Päivän keitto 10.30-15.30.</span>
+        </article>
+        <article>
+          <strong>Iltaan asti</strong>
+          <span>Talon pizza, hot wingsit, ranskalaiset, lasten annokset ja anniskeluoikeudet. Valomerkki viimeistään 01.30.</span>
+        </article>
+      </section>
+
+      <section id="menu" class="menu-section" aria-labelledby="menu-title">
+        <div class="section-heading">
+          <p class="section-kicker">Kahvio, lounas ja talon suosikit</p>
+          <h2 id="menu-title">Päivän pysähdys Paatelan Portissa</h2>
+        </div>
+        <article class="weekly-lunch-panel">
+          <div class="weekly-lunch-copy">
+            <span class="menu-label">Viikon lounaat</span>
+            <h3>Lounas arkisin klo 10.30-15.30</h3>
+            <p>
+              Päivän keittolounas tarjoillaan lounasaikaan. Lista päivittyy
+              kauden ja viikon mukaan.
+            </p>
+          </div>
+          <div class="weekly-menu-tools">
+            <div class="lunch-note">
+              <strong>Päivän keitto</strong>
+              <span>10.30-15.30</span>
+            </div>
+            <div class="weekly-menu-view" id="weeklyMenuView" aria-live="polite"></div>
+          </div>
+        </article>
+        <div class="menu-grid">
+          <article class="menu-card">
+            <img class="menu-photo" data-image-key="menu-coffee" src="kahvio-menu-taulu.jpeg" alt="Paatelan Portin kahvion vitriini ja menu">
+            <span class="menu-label">Kahvio</span>
+            <h3>Kahvio</h3>
+            <p>Kahvia, vitriinituotteita, täytettyjä sämpylöitä, ruisleipää, toastia ja paniineja pieneen nälkään.</p>
+          </article>
+          <article class="menu-card">
+            <img class="menu-photo" data-image-key="menu-pizza" src="talon-pizza.jpeg" alt="Paatelan Portin talon pizza">
+            <span class="menu-label">Pizza</span>
+            <h3>Pizzat ja täytteet</h3>
+            <p>Valitse normaali tai iso pizza ja lisää täytteitä oman maun mukaan.</p>
+            <div class="pizza-toppings">
+              <strong>Täytteet</strong>
+              <p>ananas, aurajuusto, herkkusieni, jalapeno, jauheliha, kinkku, oliivi, paprika, pepperonimakkara, punasipuli, rucola, salami, savuporo, tomaatti, tonnikala ja vilukana.</p>
+            </div>
+          </article>
+          <article class="menu-card">
+            <img class="menu-photo" data-image-key="menu-wings" src="hot-wings.jpeg" alt="Paatelan Portin hot wings -annos kasviksilla ja dipillä">
+            <span class="menu-label">Keittiön suosikit</span>
+            <h3>Talon pizza ja hot wingsit</h3>
+            <p>Hot wingsit, normaalit ja isot pizzat sekä lapsille pizzaa, ranuja, nugetteja ja nakkiranuja.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="hinnasto" class="boards-section" aria-labelledby="boards-title">
+        <div class="section-heading">
+          <p class="section-kicker">Menut ja hinnat</p>
+          <h2 id="boards-title">Kahvion ja keittiön valikoimaa</h2>
+        </div>
+        <div class="boards-layout">
+          <article class="board-panel">
+            <div class="board-copy">
+              <h3>Kahvion menu</h3>
+              <ul class="price-list" id="coffeeMenuList">
+                <li><span>Kahvi</span><strong>2,00 €</strong></li>
+                <li><span>Täytetty sämpylä</span><strong>4,00 €</strong></li>
+                <li><span>Toast</span><strong>4,00 €</strong></li>
+                <li><span>Ruisleipä</span><strong>4,00 €</strong></li>
+                <li><span>Voileipäkakku pala</span><strong>5,00 €</strong></li>
+                <li><span>Panini</span><strong>6,50 €</strong></li>
+                <li><span>Pillimehu</span><strong>1,50 €</strong></li>
+                <li><span>0,5 Limupullo</span><strong>3,50 €</strong></li>
+                <li><span>0,5 Vichy</span><strong>2,50 €</strong></li>
+                <li><span>Battery</span><strong>3,00 €</strong></li>
+                <li><span>Vaihtuva leivos</span><strong>Kysy tarjoilijalta</strong></li>
+              </ul>
+            </div>
+          </article>
+          <article class="board-panel featured-board">
+            <div class="board-copy">
+              <h3>Pizza, wingsit ja lasten annokset</h3>
+              <ul class="price-list" id="kitchenMenuList">
+                <li><span>Hot wings 15 kpl</span><strong>14,90 €</strong></li>
+                <li><span>Pizza, normaali</span><strong>12,90 €</strong></li>
+                <li><span>Pizza, iso</span><strong>16,90 €</strong></li>
+                <li><span>Lisätäyte pizzaan</span><strong>1,00 €</strong></li>
+                <li class="price-subheading"><span>Lapsille</span></li>
+                <li><span>Ranut</span><strong>5,90 €</strong></li>
+                <li><span>Nugettiranut, 6 kpl nugetteja</span><strong>8,90 €</strong></li>
+                <li><span>Nugetit 8 kpl</span><strong>6,90 €</strong></li>
+                <li><span>Nakkiranut</span><strong>8,90 €</strong></li>
+              </ul>
+            </div>
+          </article>
+          <article class="board-panel logo-board">
+            <div class="board-copy">
+              <img class="board-logo" src="paatelanportti-logo.jpeg" alt="Paatelan Portti">
+              <h3>Ravintolan puolella anniskeluoikeudet</h3>
+              <p>
+                Ravintolan puolella on anniskeluoikeudet. Valomerkki annetaan
+                viimeistään klo 01.30.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="kuvat" class="gallery-section" aria-labelledby="gallery-title">
+        <div class="section-heading">
+          <p class="section-kicker">Kuvia paikan päältä</p>
+          <h2 id="gallery-title">Kahvio, kanava ja talon suosikit samassa pysähdyksessä</h2>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-large">
+            <img data-image-key="gallery-interior" src="sisatila-juhlat.jpeg" alt="Paatelan Portin sisätila pöytineen ja kanavanäkymällä">
+            <figcaption>Sisätilat sopivat kahvitteluun, ruokailuun ja juhlatilaisuuksiin.</figcaption>
+          </figure>
+          <figure>
+            <img data-image-key="gallery-waterfront" src="ravintola-rannasta.webp" alt="Paatelan Portti kuvattuna veden ääreltä">
+            <figcaption>Ravintola sijaitsee aivan veden ja kanavamaiseman äärellä.</figcaption>
+          </figure>
+          <figure>
+            <img data-image-key="gallery-wings" src="hot-wings.jpeg" alt="Hot wings -annos">
+            <figcaption>Hot wingsit sopivat iltaan, juhliin ja jaettavaksi porukalle.</figcaption>
+          </figure>
+          <figure>
+            <img data-image-key="gallery-pizza" src="talon-pizza.jpeg" alt="Talon pizza">
+            <figcaption>Talon pizzat saat normaalina tai isona.</figcaption>
+          </figure>
+          <figure class="gallery-balanced gallery-wide-view gallery-no-caption">
+            <img data-image-key="gallery-terrace-view" src="kanavaterassi.jpeg" alt="Paatelan Portin terassi kanavan äärellä">
+          </figure>
+          <figure class="gallery-balanced">
+            <img data-image-key="gallery-terrace-inside" src="terassi-asiakkaat-sisalta.jpeg" alt="Paatelan Portin terassi ravintolan sisältä nähtynä">
+            <figcaption>Terassi kokoaa porukan yhteen kanavan äärellä.</figcaption>
+          </figure>
+          <figure>
+            <img data-image-key="gallery-terrace-group" src="terassi-porukka.jpeg" alt="Asiakkaita Paatelan Portin terassilla">
+            <figcaption>Rento pysähdys kahville, ruoalle tai ajoporukan tapaamiseen. Motoristi kahvi 1,75 €.</figcaption>
+          </figure>
+          <figure>
+            <img data-image-key="gallery-pizza-group" src="terassi-pizza-porukka.jpeg" alt="Pizzaa ja juomia Paatelan Portin terassilla">
+            <figcaption>Pizza, juomat ja terassitunnelma sopivat hyvin porukkailtoihin.</figcaption>
+          </figure>
+          <figure>
+            <img data-image-key="gallery-trampoline" src="pihatrampoliini.jpeg" alt="Paatelan Portin pihan trampoliini">
+            <figcaption class="caption-top">Pihalta löytyy tekemistä myös perheen pienemmille.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="order-section" aria-labelledby="order-title">
+        <div>
+          <p class="section-kicker">Tilaukset ja kysymykset</p>
+          <h2 id="order-title">Soita tai laita viesti WhatsAppiin</h2>
+          <p>
+            Voit kysyä päivän lounasta, tehdä puhelintilauksen tai varmistaa
+            keittiön tämänhetkisen valikoiman suoraan ravintolasta.
+          </p>
+        </div>
+        <div class="order-actions">
+          <a class="button primary" href="tel:+358407557155">040 755 7155</a>
+          <a class="button secondary navy-outline" href="https://wa.me/358407557155?text=Hei%20Paatelan%20Portti%21%20Haluaisin%20kysy%C3%A4%20tilauksesta." target="_blank" rel="noopener">WhatsApp 040 755 7155</a>
+        </div>
+      </section>
+
+      <section id="tilaisuudet" class="events-section" aria-labelledby="events-title">
+        <div class="events-copy">
+          <p class="section-kicker">Yksityistilaisuudet ja juhlatilaisuudet</p>
+          <h2 id="events-title">Juhlat kanavamaisemassa</h2>
+          <p>
+            Paatelan Portissa voi järjestää yksityistapahtumia, polttareita,
+            häitä, syntymäpäiviä tai vaikka pienet festarit. Kerro meille
+            millainen tilaisuus on mielessä, niin palaamme tarjouksen kanssa.
+          </p>
+          <p>
+            Perjantaisin Paatelan Portissa lauletaan karaokea AJ Viihteen
+            tuottamana klo 20.00 alkaen. Torstaisin kanavakaraoke alkaa klo
+            18.00 tutun Timo Kolun vetämänä. Lauantaisin ohjelmassa voi olla
+            tanssi-iltoja ja elävää musiikkia.
+          </p>
+          <ul class="event-list">
+            <li>Yksityistapahtumat</li>
+            <li>Polttarit ja syntymäpäivät</li>
+            <li>Häät ja perhejuhlat</li>
+            <li>Pienet festarit ja kesäillat</li>
+            <li>Karaoke, tanssi-illat ja elävä musiikki</li>
+          </ul>
+          <article class="ship-card">
+            <div>
+              <p class="section-kicker">Tutustu laivaan</p>
+              <h3>Suvi Express kantosiipialus</h3>
+              <p>
+                Juhlaan voi yhdistää myös järvimatkailun: Suvi Express
+                liikennöi kotisatamastaan Paatelan Portin laiturilta
+                Keiteleellä ja Päijänteellä. Laivassa on myös
+                anniskeluoikeudet.
+              </p>
+            </div>
+            <a class="button primary" href="https://www.suvi-express.fi/" target="_blank" rel="noopener">suvi-express.fi</a>
+          </article>
+          <article class="event-calendar-card">
+            <div>
+              <p class="section-kicker">Tapahtumakalenteri</p>
+              <h3>Viikon vakio-ohjelma ja tulevat illat</h3>
+              <p>
+                Katso viikon vakio-ohjelma ja tulevat illat. Tarkemmat
+                esiintyjät ja lisäillat päivittyvät kalenteriin.
+              </p>
+            </div>
+            <figure class="event-poster">
+              <img data-image-key="event-4k-band" src="4k-band-paatelan-portti.jpg" alt="4K Band Paatelan Portissa lauantaina 4.7. klo 21. Kautto, Kosonen, Kurtti ja Kurtti.">
+            </figure>
+            <figure class="event-poster">
+              <img data-image-key="event-tanssit" src="tanssit-paatelan-portissa.jpg" alt="Tanssit Paatelan Portissa lauantaina 1.8.2026 klo 20.30. Äänekosken harmonikat, solisteina Rauni Parantainen ja Kari Heinonen. Liput 10 euroa.">
+            </figure>
+            <div class="event-calendar-view" id="eventCalendarView" aria-live="polite"></div>
+          </article>
+        </div>
+        <form class="event-form" id="eventForm" name="tilaisuus-tarjouspyynto" method="POST" action="/kiitos.html" data-netlify="true" netlify data-netlify-honeypot="bot-field" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="tilaisuus-tarjouspyynto">
+          <p class="hidden-field">
+            <label>Älä täytä tätä kenttää <input name="bot-field"></label>
+          </p>
+          <h3>Pyydä tarjous</h3>
+          <div class="form-grid">
+            <label>
+              Nimi
+              <input type="text" name="name" autocomplete="name" required>
+            </label>
+            <label>
+              Sähköposti
+              <input type="email" name="email" autocomplete="email" required>
+            </label>
+            <label>
+              Puhelin
+              <input type="tel" name="phone" autocomplete="tel">
+            </label>
+            <label>
+              Tilaisuuden ajankohta
+              <input type="text" name="date" placeholder="Esim. 12.7.2026">
+            </label>
+            <label>
+              Tilaisuuden tyyppi
+              <select name="eventType">
+                <option>Yksityistapahtuma</option>
+                <option>Polttarit</option>
+                <option>Häät</option>
+                <option>Syntymäpäivät</option>
+                <option>Pienet festarit</option>
+                <option>Muu tilaisuus</option>
+              </select>
+            </label>
+            <label>
+              Henkilömäärä
+              <input type="number" name="guests" min="1" placeholder="Esim. 30">
+            </label>
+          </div>
+          <label>
+            Kerro toiveista
+            <textarea name="message" rows="5" placeholder="Ruoka, juomat, aikataulu, ohjelma tai muut toiveet"></textarea>
+          </label>
+          <button type="submit">Lähetä tarjouspyyntö</button>
+          <p class="form-note">Tarjouspyynnöt ohjataan osoitteeseen ravintola@paatelanportti.com. Paikallisessa esikatselussa lomake avaa sähköpostin valmiiksi täytettynä.</p>
+        </form>
+      </section>
+
+      <section id="yhteys" class="info-section" aria-labelledby="contact-title">
+        <div class="info-card contact-card">
+          <p class="section-kicker">Yhteystiedot</p>
+          <h2 id="contact-title">Paatelan Portti</h2>
+          <address>
+            Äänekoskentie 842<br>
+            44200 Suolahti
+          </address>
+          <a class="phone-link" href="tel:+358407557155">040 755 7155</a>
+          <div class="social-follow">
+            <span>Seuraa meitä somessa</span>
+            <a class="social-link" href="https://www.facebook.com/share/1JShnwDXys/" target="_blank" rel="noopener" aria-label="Avaa Paatelan Portti Facebookissa">@PaatelanPortti Facebookissa</a>
+          </div>
+          <div class="map-preview" aria-label="Paatelan Portti Google Maps -kartalla">
+            <iframe
+              title="Paatelan Portti kartalla"
+              src="https://www.google.com/maps?q=%C3%84%C3%A4nekoskentie%20842%2044200%20Suolahti&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+          <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=%C3%84%C3%A4nekoskentie%20842%2044200%20Suolahti" target="_blank" rel="noopener">Avaa Google Mapsissa</a>
+        </div>
+        <div class="info-card hours-card">
+          <p class="section-kicker">Aukioloajat</p>
+          <dl class="hours-list">
+            <div>
+              <dt>Ma-To</dt>
+              <dd>9.30 - 21.30 (02:00)</dd>
+            </div>
+            <div>
+              <dt>Pe</dt>
+              <dd>9.30 - 22.30 (02.00)</dd>
+            </div>
+            <div>
+              <dt>La</dt>
+              <dd>10.30 - 22.30 (02.00)</dd>
+            </div>
+          </dl>
+          <div class="feedback-intro">
+            <h3>Asiakaspalaute</h3>
+            <p>
+              Haluamme tarjota asiakkaillemme ystävällistä palvelua ja viihtyisän
+              asiointikokemuksen. Kehitämme toimintaa jatkuvasti, jotta voimme
+              tarjota asiakkaillemme vain parasta. Kaikki palaute on meille
+              arvokasta ja lämpimästi tervetullutta.
+            </p>
+          </div>
+          <form class="feedback-form" id="feedbackForm" name="asiakaspalaute" method="POST" action="/kiitos.html" data-netlify="true" netlify data-netlify-honeypot="feedback-bot-field" netlify-honeypot="feedback-bot-field">
+            <input type="hidden" name="form-name" value="asiakaspalaute">
+            <p class="hidden-field">
+              <label>Älä täytä tätä kenttää <input name="feedback-bot-field"></label>
+            </p>
+            <label>
+              Nimi
+              <input type="text" name="name" autocomplete="name">
+            </label>
+            <label>
+              Sähköposti
+              <input type="email" name="email" autocomplete="email">
+            </label>
+            <label>
+              Palaute
+              <textarea name="message" rows="4" placeholder="Kirjoita palautteesi..." required></textarea>
+            </label>
+            <button type="submit">Lähetä palaute</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <aside class="chat-widget" aria-label="WhatsApp chat">
+      <button class="chat-toggle" type="button" aria-expanded="false" aria-controls="chatBox">
+        <span class="chat-symbol" aria-hidden="true"></span>
+        <span>Chat</span>
+      </button>
+      <div class="chat-box" id="chatBox" hidden>
+        <div class="chat-header">
+          <strong>Paatelan Portti</strong>
+          <button class="chat-close" type="button" aria-label="Sulje chat">×</button>
+        </div>
+        <div class="chat-messages" aria-live="polite">
+          <p class="bot-message">Hei! Kirjoita viestisi, niin ohjaan sen suoraan ravintolan WhatsAppiin numeroon 040 755 7155.</p>
+        </div>
+        <div class="quick-messages" aria-label="Nopeat viestit">
+          <button type="button" data-message="Onko tänään päivän keittoa?">Päivän keitto</button>
+          <button type="button" data-message="Haluaisin tilata pizzan.">Pizza</button>
+          <button type="button" data-message="Haluaisin kysyä hot wingseistä.">Hot wingsit</button>
+        </div>
+        <form class="chat-form">
+          <label class="sr-only" for="chatMessage">Viestisi</label>
+          <textarea id="chatMessage" name="message" rows="3" placeholder="Kirjoita viesti..." required></textarea>
+          <button type="submit">Lähetä WhatsAppiin</button>
+        </form>
+      </div>
+    </aside>
+
+    <footer class="site-footer">
+      <p>© Paatelan Portti</p>
+      <a href="https://wa.me/358407557155" target="_blank" rel="noopener">WhatsApp 040 755 7155</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "updated": "2026-06-28",
+  "items": [
+    {
+      "day": "Maanantai",
+      "menu": "Makkarakeittoa, leipää, ruokajuomat"
+    },
+    {
+      "day": "Tiistai",
+      "menu": "Jauhelihakeittoa, leipää, ruokajuomat"
+    },
+    {
+      "day": "Keskiviikko",
+      "menu": "Kasvissosekeittoa, leipää, ruokajuomat"
+    },
+    {
+      "day": "Torstai",
+      "menu": "Hernekeittoa, leipää, ruokajuomat, pannari tai jäätelö"
+    },
+    {
+      "day": "Perjantai",
+      "menu": "Lohikeittoa, leivät, ruokajuomat"
+    },
+    {
+      "day": "Lauantai",
+      "menu": "Savuporo-juustokeittoa, leivät, ruokajuomat"
+    }
+  ]
+}
