@@ -7,6 +7,15 @@
     <title>Paatelan Portti | Ravintola Suolahdessa</title>
     <link rel="preload" href="terassi-sisaan-tulo.jpeg" as="image">
     <link rel="stylesheet" href="styles.css">
+    <script>
+      (function () {
+        var hash = window.location.hash || "";
+        var identityToken = /(?:invite|recovery|confirmation|email_change)_token=/.test(hash);
+        if (identityToken) {
+          window.location.replace("/admin/" + hash);
+        }
+      })();
+    </script>
   </head>
   <body>
     <div hidden>
