@@ -14,12 +14,6 @@
       "description": "Karaoken tuottaa AJ Viihde."
     },
     {
-      "day": "La 4.7.2026",
-      "time": "klo 21.00",
-      "title": "4K Band Paatelan Portissa",
-      "description": "Musiikkia parhaalla mahdollisella kuvalaadulla - eli livenä! Kautto, Kosonen, Kurtti ja Kurtti. Liput 10 €, tervetuloa!"
-    },
-    {
       "day": "La 1.8.2026",
       "time": "klo 20.30",
       "title": "Tanssit Paatelan Portissa",
@@ -30,6 +24,12 @@
       "time": "illalla",
       "title": "Tanssi-iltoja ja elävää musiikkia (liput 10 €)",
       "description": "Viikonlopun esiintyjät ja ohjelma päivitetään tähän tarpeen mukaan."
+    },
+    {
+      "day": "La 11.07.2026",
+      "time": "20.00-00.00",
+      "title": "Tanssi-ilta",
+      "description": "Tanssimusiikkia Vesa K, Petteri M, Aarne I\n\nLiput 10 €"
     }
   ]
 }
