@@ -55,7 +55,7 @@
     {
       "key": "gallery-pizza",
       "label": "Galleria: pizza",
-      "src": "talon-pizza.jpeg",
+      "src": "/images/uploads/pizza.jpeg",
       "alt": "Talon pizza",
       "caption": "Talon pizzat saat normaalina tai isona."
     },
