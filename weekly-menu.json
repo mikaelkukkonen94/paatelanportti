@@ -20,6 +20,10 @@
     {
       "day": "Perjantai",
       "menu": "Lohikeittoa, leivät, ruokajuomat"
+    },
+    {
+      "day": "Lauantai",
+      "menu": "Savuporo-juustokeittoa, leivät, ruokajuomat"
     }
   ]
 }

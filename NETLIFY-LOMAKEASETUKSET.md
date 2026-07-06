@@ -1,20 +1,21 @@
-# Netlify-lomakkeen viimeinen asetus
-
-Kun sivusto on julkaistu Netlifyyn, tarjouslomakkeen sähköposti-ilmoitus otetaan käyttöön näin:
-
-1. Avaa Netlify.
-2. Valitse Paatelan Portin sivusto.
-3. Mene kohtaan **Forms**.
-4. Avaa lomake nimeltä `tilaisuus-tarjouspyynto`.
-5. Mene lomakkeen ilmoitusasetuksiin.
-6. Lisää sähköposti-ilmoituksen vastaanottajaksi:
-
-   `ravintola@paatelanportti.com`
-
-7. Tallenna.
-8. Lähetä testitarjouspyyntö julkaistulta sivulta.
-9. Varmista, että viesti saapuu sähköpostiin.
-
-Toista sama myös lomakkeelle `asiakaspalaute`, jotta asiakaspalautteet tulevat samaan osoitteeseen.
-
-Paikallisessa esikatselussa lomake ei voi lähettää suoraan Netlifyn kautta, vaan se avaa sähköpostiohjelman valmiiksi täytetyllä viestillä.
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kiitos viestistä | Paatelan Portti</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="thanks-page">
+    <main class="thanks-view">
+      <img class="thanks-logo" src="paatelanportti-logo.jpeg" alt="Paatelan Portti">
+      <p class="section-kicker">Viesti vastaanotettu</p>
+      <h1>Kiitos viestistäsi</h1>
+      <p>Paatelan Portti palaa asiaan mahdollisimman pian.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="index.html">Takaisin etusivulle</a>
+        <a class="button secondary navy-outline" href="tel:+358407557155">Soita 040 755 7155</a>
+      </div>
+    </main>
+  </body>
+</html>
