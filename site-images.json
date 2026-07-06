@@ -41,9 +41,9 @@
     {
       "key": "gallery-waterfront",
       "label": "Galleria: ravintola rannasta",
-      "src": "ravintola-rannasta.webp",
-      "alt": "Paatelan Portti kuvattuna veden ääreltä",
-      "caption": "Ravintola sijaitsee aivan veden ja kanavamaiseman äärellä."
+      "src": "/images/uploads/img_1658.jpeg",
+      "alt": "Annoskuva",
+      "caption": "Isot makkaraperunat 9,00 €"
     },
     {
       "key": "gallery-wings",
@@ -64,7 +64,7 @@
       "label": "Galleria: kanavaterassi",
       "src": "/images/uploads/lehtipihvi.jpeg",
       "alt": "Uusi annos lehtipihvi",
-      "caption": "Naudan lehtipihvi 15,90 €"
+      "caption": "Lehtipihvi, naudasta  15,90 €"
     },
     {
       "key": "gallery-terrace-inside",
