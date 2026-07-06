@@ -24,7 +24,6 @@ const defaultWeeklyMenu = [
   "Keskiviikko: Kasvissosekeittoa, leipää, ruokajuomat",
   "Torstai: Hernekeittoa, leipää, ruokajuomat, pannari tai jäätelö",
   "Perjantai: Lohikeittoa, leivät, ruokajuomat",
-  "Lauantai: Savuporo-juustokeittoa, leivät, ruokajuomat"
 ].join("\n");
 
 const defaultEventCalendar = [
