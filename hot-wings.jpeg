@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30",
+  "updated": "2026-07-08",
   "items": [
     {
       "day": "Torstaisin",
@@ -12,6 +12,12 @@
       "time": "klo 20.00",
       "title": "Karaoke",
       "description": "Karaoken tuottaa AJ Viihde."
+    },
+    {
+      "day": "La 18.7.2026",
+      "time": "klo 21.00-00.30",
+      "title": "Paatelan Portissa tanssittaa Anne Lahti orkestereineen",
+      "description": "Liput 10 €. Tervetuloa!"
     },
     {
       "day": "La 1.8.2026",
