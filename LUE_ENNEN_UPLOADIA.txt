@@ -1,0 +1,18 @@
+PAATELAN PORTTI - JULKAISUOHJE
+
+Vie GitHubiin taman kansion SISALTO, ei pelkkaa zip-tiedostoa.
+
+Mukana pitaa aina olla ainakin:
+- index.html
+- styles.css
+- script.js
+- site-images.json
+- events-calendar.json
+- food-menu.json
+- weekly-menu.json
+- netlify.toml
+- admin-kansio
+
+Jos styles.css puuttuu tai menee rikki, sivu nayttaa raakaversiolta ja kuvat venyvat isoiksi allekkain.
+
+Kun tiedostot on ladattu GitHubiin ja commit tehty, Netlify julkaisee sivun automaattisesti.
