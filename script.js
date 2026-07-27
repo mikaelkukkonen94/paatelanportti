@@ -363,7 +363,7 @@ if (eventForm) {
       name
     ].join("\n");
 
-    window.location.href = `mailto:${restaurantEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = `mailto:${restaurantEmail}subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   });
 }
 
@@ -402,7 +402,7 @@ if (feedbackForm) {
       name || "Asiakas"
     ].join("\n");
 
-    window.location.href = `mailto:${restaurantEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = `mailto:${restaurantEmail}subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   });
 }
 
@@ -417,7 +417,7 @@ if (chatForm && chatMessage) {
     }
 
     const text = `Hei Paatelan Portti! ${message}`;
-    const whatsappUrl = `https://wa.me/${restaurantWhatsAppNumber}?text=${encodeURIComponent(text)}`;
+    const whatsappUrl = `https://wa.me/${restaurantWhatsAppNumber}text=${encodeURIComponent(text)}`;
 
     window.open(whatsappUrl, "_blank", "noopener");
     chatMessage.value = "";
