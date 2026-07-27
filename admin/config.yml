@@ -7,8 +7,28 @@ media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
 collections:
-  - name: "paatelan_sisalto"
-    label: "Paatelan Portin sisältö"
+  - name: "events_calendar"
+    label: "1. Lisää ja muokkaa tapahtumia"
+    files:
+      - name: "events_calendar"
+        label: "Tapahtumakalenteri"
+        file: "events-calendar.json"
+        format: "json"
+        fields:
+          - { label: "Päivitetty", name: "updated", widget: "string", required: false, hint: "Voit merkitä tähän päivämäärän, jolloin kalenteria on viimeksi muutettu." }
+          - label: "Tapahtumat"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.day}} {{fields.time}} - {{fields.title}}"
+            hint: "Lisää uusi tapahtuma painamalla Add item / Lisää. Poista mennyt tapahtuma roskakorista."
+            fields:
+              - { label: "Päivä", name: "day", widget: "string", hint: "Esim. La 1.8.2026 tai Torstaisin" }
+              - { label: "Aika", name: "time", widget: "string", hint: "Esim. klo 20.30" }
+              - { label: "Otsikko", name: "title", widget: "string" }
+              - { label: "Kuvaus", name: "description", widget: "text", required: false }
+
+  - name: "weekly_menu"
+    label: "2. Muokkaa viikon lounaslistaa"
     files:
       - name: "weekly_menu"
         label: "Viikon lounaslista"
@@ -19,25 +39,15 @@ collections:
           - label: "Lounaat"
             name: "items"
             widget: "list"
+            summary: "{{fields.day}} - {{fields.menu}}"
+            hint: "Tähän voi vaihtaa viikon keitot ja lounaat."
             fields:
               - { label: "Päivä", name: "day", widget: "string" }
               - { label: "Lounas", name: "menu", widget: "string" }
 
-      - name: "events_calendar"
-        label: "Tapahtumakalenteri"
-        file: "events-calendar.json"
-        format: "json"
-        fields:
-          - { label: "Päivitetty", name: "updated", widget: "string", required: false }
-          - label: "Tapahtumat"
-            name: "items"
-            widget: "list"
-            fields:
-              - { label: "Päivä", name: "day", widget: "string" }
-              - { label: "Aika", name: "time", widget: "string" }
-              - { label: "Otsikko", name: "title", widget: "string" }
-              - { label: "Kuvaus", name: "description", widget: "text", required: false }
-
+  - name: "food_menu"
+    label: "3. Muokkaa ruokalistaa ja hintoja"
+    files:
       - name: "food_menu"
         label: "Ruokalista ja hinnat"
         file: "food-menu.json"
@@ -47,17 +57,23 @@ collections:
           - label: "Osastot"
             name: "sections"
             widget: "list"
+            summary: "{{fields.title}}"
             fields:
-              - { label: "Tunniste", name: "id", widget: "select", options: ["coffee", "kitchen"] }
+              - { label: "Tunniste", name: "id", widget: "select", options: ["coffee", "kitchen"], hint: "coffee = kahvio, kitchen = keittiö" }
               - { label: "Otsikko", name: "title", widget: "string" }
               - label: "Tuotteet"
                 name: "items"
                 widget: "list"
+                summary: "{{fields.name}} {{fields.price}}"
+                hint: "Lisää uusi ruoka tai hinta painamalla Add item / Lisää."
                 fields:
                   - { label: "Nimi", name: "name", widget: "string" }
                   - { label: "Hinta", name: "price", widget: "string", required: false }
-                  - { label: "Tyyppi", name: "type", widget: "select", options: ["product", "heading"], default: "product", required: false }
+                  - { label: "Tyyppi", name: "type", widget: "select", options: ["product", "heading"], default: "product", required: false, hint: "Käytä heading-valintaa vain väliotsikoille kuten Lapsille." }
 
+  - name: "site_images"
+    label: "4. Vaihda sivuston kuvia"
+    files:
       - name: "site_images"
         label: "Sivuston kuvat"
         file: "site-images.json"
@@ -68,6 +84,7 @@ collections:
             name: "images"
             widget: "list"
             summary: "{{fields.label}}"
+            hint: "Vaihda kuva kohdasta Kuva. Älä muuta teknistä tunnistetta, jotta kuva pysyy oikeassa paikassa sivulla."
             fields:
               - { label: "Kuvan paikka", name: "label", widget: "string" }
               - { label: "Tekninen tunniste", name: "key", widget: "string", hint: "Älä muuta tätä, jotta kuva päivittyy oikeaan kohtaan sivulla." }
