@@ -1063,6 +1063,7 @@ address {
   display: inline-flex;
   width: fit-content;
   align-items: center;
+  justify-content: center;
   border: 1px solid rgba(16, 42, 84, 0.16);
   border-radius: 8px;
   padding: 10px 12px;
@@ -1070,6 +1071,15 @@ address {
   color: #123f83;
   font-weight: 900;
   text-decoration: none;
+}
+
+.social-link.instagram {
+  background: rgba(224, 64, 151, 0.1);
+  color: #7d235f;
+}
+
+.social-link:hover {
+  transform: translateY(-1px);
 }
 
 .map-link {
@@ -1155,6 +1165,111 @@ address {
 .site-footer a {
   color: var(--gold);
   font-weight: 800;
+}
+
+.privacy-section {
+  padding: clamp(54px, 8vw, 92px) clamp(18px, 5vw, 74px);
+  background: var(--green-dark);
+  color: var(--white);
+}
+
+.privacy-section .section-heading {
+  max-width: 850px;
+}
+
+.privacy-section .section-kicker,
+.privacy-section h2 {
+  color: var(--gold);
+}
+
+.privacy-section .section-heading p,
+.privacy-grid p {
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.privacy-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.privacy-grid article {
+  padding: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.privacy-grid h3 {
+  margin: 0 0 10px;
+  color: var(--white);
+  font-size: 1.15rem;
+}
+
+.cookie-banner {
+  position: fixed;
+  z-index: 45;
+  left: 18px;
+  right: 18px;
+  bottom: 18px;
+  display: flex;
+  max-width: 980px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 18px;
+  border: 1px solid rgba(242, 196, 90, 0.45);
+  border-radius: 8px;
+  background: rgba(16, 36, 71, 0.97);
+  color: var(--white);
+  box-shadow: 0 22px 55px rgba(8, 25, 56, 0.28);
+}
+
+.cookie-banner[hidden] {
+  display: none;
+}
+
+.cookie-banner strong {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--gold);
+}
+
+.cookie-banner p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.84);
+  font-size: 0.95rem;
+}
+
+.cookie-actions {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 10px;
+}
+
+.cookie-actions a,
+.cookie-actions button {
+  min-height: 42px;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font: inherit;
+  font-weight: 800;
+}
+
+.cookie-actions a {
+  display: inline-flex;
+  align-items: center;
+  color: var(--gold);
+}
+
+.cookie-actions button {
+  border: 0;
+  color: var(--green-dark);
+  background: var(--gold);
+  cursor: pointer;
 }
 
 .chat-widget {
@@ -1550,5 +1665,18 @@ address {
   .site-footer {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .privacy-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cookie-banner {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .cookie-actions {
+    justify-content: space-between;
   }
 }

@@ -10,6 +10,8 @@ const weeklyMenuView = document.querySelector("#weeklyMenuView");
 const eventCalendarView = document.querySelector("#eventCalendarView");
 const coffeeMenuList = document.querySelector("#coffeeMenuList");
 const kitchenMenuList = document.querySelector("#kitchenMenuList");
+const cookieBanner = document.querySelector("[data-cookie-banner]");
+const cookieAcceptButton = document.querySelector("[data-cookie-accept]");
 
 const restaurantWhatsAppNumber = "358407557155";
 const restaurantEmail = "ravintola@paatelanportti.com";
@@ -17,6 +19,7 @@ const weeklyMenuFile = "weekly-menu.json";
 const eventCalendarFile = "events-calendar.json";
 const foodMenuFile = "food-menu.json";
 const siteImagesFile = "site-images.json";
+const cookieConsentKey = "paatelanportti-cookie-consent";
 
 const defaultWeeklyMenu = [
   "Maanantai: Makkarakeittoa, leipää, ruokajuomat",
@@ -304,6 +307,17 @@ if (coffeeMenuList || kitchenMenuList) {
 }
 
 loadSiteImages();
+
+if (cookieBanner && cookieAcceptButton) {
+  const hasCookieConsent = localStorage.getItem(cookieConsentKey) === "accepted";
+
+  cookieBanner.hidden = hasCookieConsent;
+
+  cookieAcceptButton.addEventListener("click", () => {
+    localStorage.setItem(cookieConsentKey, "accepted");
+    cookieBanner.hidden = true;
+  });
+}
 
 if (eventForm) {
   eventForm.addEventListener("submit", async (event) => {

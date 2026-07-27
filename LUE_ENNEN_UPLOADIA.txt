@@ -1,18 +1,13 @@
-PAATELAN PORTTI - JULKAISUOHJE
+﻿PAATELAN PORTTI - JULKAISUPAKETTI 27.7.2026
 
 Vie GitHubiin taman kansion SISALTO, ei pelkkaa zip-tiedostoa.
 
-Mukana pitaa aina olla ainakin:
-- index.html
-- styles.css
-- script.js
-- site-images.json
-- events-calendar.json
-- food-menu.json
-- weekly-menu.json
-- netlify.toml
-- admin-kansio
+Tassa paketissa on:
+- uudet some-linkit Facebookiin ja Instagramiin
+- vanha Facebook share -linkki poistettu
+- evastebanneri
+- tietosuojaosio
+- Kanavan vieressa -kuvan varakuva korjattu, jotta trampoliinikuva ei valahda ensin
+- kaikki sivuston tarvittavat tukitiedostot mukana
 
-Jos styles.css puuttuu tai menee rikki, sivu nayttaa raakaversiolta ja kuvat venyvat isoiksi allekkain.
-
-Kun tiedostot on ladattu GitHubiin ja commit tehty, Netlify julkaisee sivun automaattisesti.
+Tarkista aina, etta mukana menee myos styles.css ja site-images.json.
