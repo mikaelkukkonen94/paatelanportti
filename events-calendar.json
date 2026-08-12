@@ -8,6 +8,12 @@
       "description": "Vetäjänä tuttu Timo Kolu. HUOM! Peruttu to 13.8.!"
     },
     {
+      "day": "To 13.8.",
+      "time": "klo 9.30",
+      "title": "Kesän viimeinen Suvi Express -risteily Lahteen!",
+      "description": "Nyt on viimeinen mahdollisuus hypätä tänä kesänä Suvi Expressin kyytiin Lahden suuntaan! Lähtö Paatelan Portilta to 13.8. klo 9.30 ja Jyväskylästä klo 12.00. Perillä Lahdessa klo 15.30. Paluumatka onnistuu kätevästi Onnibussilla, lähtö Lahdesta klo 15.50, perillä Jyväskylässä klo 18.00 ja Äänekoskella klo 18.45. Kesän viimeinen lähtö erikoishintaan 100 €! Tervetuloa mukaan risteilemään!"
+    },
+    {
       "day": "Perjantaisin",
       "time": "klo 20.00",
       "title": "Karaoke",
@@ -30,12 +36,6 @@
       "title": "Venetsialaiset Paatelan Portissa",
       "time": "Koko päivä",
       "description": "Koko perheen venetsialaiset Paatelan Portissa lauantaina 29.8.! Tarkempi aikataulu ja muut yksityiskohdat tiedotetaan lähempänä tapahtumaa."
-    },
-    {
-      "day": "To 13.8.",
-      "time": "klo 9.30",
-      "title": "Kesän viimeinen Suvi Express -risteily Lahteen!",
-      "description": "Nyt on viimeinen mahdollisuus hypätä tänä kesänä Suvi Expressin kyytiin Lahden suuntaan! Lähtö Paatelan Portilta to 13.8. klo 9.30 ja Jyväskylästä klo 12.00. Perillä Lahdessa klo 15.30. Paluumatka onnistuu kätevästi Onnibussilla, lähtö Lahdesta klo 15.50, perillä Jyväskylässä klo 18.00 ja Äänekoskella klo 18.45. Kesän viimeinen lähtö erikoishintaan 100 €! Tervetuloa mukaan risteilemään!"
     },
     {
       "day": "Lauantaisin",
