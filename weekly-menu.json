@@ -3,15 +3,15 @@
   "items": [
     {
       "day": "MA 10.8.",
-      "menu": "Makkarakeittoa, leipää, ruokajuomat"
+      "menu": "Makkarakeittoa, leipää, ruokajuomat, kahvi"
     },
     {
       "day": "TI 11.8.",
-      "menu": "Jauhelihakeittoa, leipää, ruokajuomat"
+      "menu": "Jauhelihakeittoa, leipää, ruokajuomat, kahvi"
     },
     {
       "day": "KE 12.8.",
-      "menu": "Kasvissosekeittoa, leipää, ruokajuomat"
+      "menu": "Kasvissosekeittoa, leipää, ruokajuomat, kahvi"
     },
     {
       "day": "TO 13.8.",
@@ -19,27 +19,27 @@
     },
     {
       "day": "PE 14.8.",
-      "menu": "Paahdettua myskikurpitsakeittoa, leivät, ruokajuomat, kahvi"
+      "menu": "Paahdettua myskikurpitsakeittoa, leipää, ruokajuomat, kahvi"
     },
     {
       "day": "MA 17.8.",
-      "menu": "Savulohikeittoa, leivät, ruokajuomat, kahvi"
+      "menu": "Savulohikeittoa, leipää, ruokajuomat, kahvi"
     },
     {
       "day": "TI 18.8.",
-      "menu": "Jauhelihakeittoa, leivät, ruokajuomat, kahvi"
+      "menu": "Jauhelihakeittoa, leipää, ruokajuomat, kahvi"
     },
     {
       "day": "KE 19.8.",
-      "menu": "Kasvissosekeittoa, leivät, ruokajuomat, kahvi"
+      "menu": "Kasvissosekeittoa, leipää, ruokajuomat, kahvi"
     },
     {
       "day": "TO 20.8.",
-      "menu": "Hernekeittoa, leivät, ruokajuomat, kahvi, jäätelö tai pannari"
+      "menu": "Hernekeittoa, leipää, ruokajuomat, kahvi, jäätelö tai pannari"
     },
     {
       "day": "PE 21.8.",
-      "menu": "Kermaista kanakeittoa, leivät, ruokajuomat, kahvi"
+      "menu": "Kermaista kanakeittoa, leipää, ruokajuomat, kahvi"
     }
   ]
 }
