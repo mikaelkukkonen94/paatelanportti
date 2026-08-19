@@ -5,25 +5,13 @@
       "day": "Torstaisin",
       "time": "klo 18.00",
       "title": "Kanavakaraoke",
-      "description": "Vetäjänä tuttu Timo Kolu. HUOM! Peruttu to 13.8.!"
-    },
-    {
-      "day": "To 13.8.",
-      "time": "klo 9.30",
-      "title": "Kesän viimeinen Suvi Express -risteily Lahteen!",
-      "description": "Nyt on viimeinen mahdollisuus hypätä tänä kesänä Suvi Expressin kyytiin Lahden suuntaan! Lähtö Paatelan Portilta to 13.8. klo 9.30 ja Jyväskylästä klo 12.00. Perillä Lahdessa klo 15.30. Paluumatka onnistuu kätevästi Onnibussilla, lähtö Lahdesta klo 15.50, perillä Jyväskylässä klo 18.00 ja Äänekoskella klo 18.45. Kesän viimeinen lähtö erikoishintaan 100 €! Tervetuloa mukaan risteilemään!"
+      "description": "Vetäjänä tuttu Timo Kolu."
     },
     {
       "day": "Perjantaisin",
       "time": "klo 20.00",
       "title": "Karaoke",
       "description": "Karaoken tuottaa AJ Viihde."
-    },
-    {
-      "day": "La 15.8.2026",
-      "time": "klo 20.00",
-      "title": "Karaokeviikonloppu Paatelassa!",
-      "description": "Karaokea lauletaan myös lauantaina 15.8. klo 20 alkaen! Karaoken tuottaa AJ Viihde."
     },
     {
       "day": "Pe 21.8.2026",
