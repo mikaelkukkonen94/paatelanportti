@@ -3,7 +3,7 @@
   "items": [
     {
       "day": "Torstaisin",
-      "time": "klo 17-20",
+      "time": "klo 18.00",
       "title": "Kanavakaraoke",
       "description": "Vetäjänä tuttu Timo Kolu."
     },
@@ -12,6 +12,12 @@
       "time": "klo 20.00",
       "title": "Karaoke",
       "description": "Karaoken tuottaa AJ Viihde."
+    },
+    {
+      "day": "La 1.8.2026",
+      "time": "klo 20.30",
+      "title": "Tanssit Paatelan Portissa",
+      "description": "Äänekosken harmonikat, solisteina Rauni Parantainen ja Kari Heinonen. Liput 10 €, tervetuloa!"
     },
     {
       "day": "Lauantaisin",

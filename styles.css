@@ -1162,6 +1162,17 @@ address {
   margin: 0;
 }
 
+.footer-branding {
+  display: grid;
+  gap: 4px;
+}
+
+.footer-credit {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.86rem;
+  font-weight: 600;
+}
+
 .site-footer a {
   color: var(--gold);
   font-weight: 800;

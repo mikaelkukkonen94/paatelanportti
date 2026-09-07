@@ -2,20 +2,24 @@
   "updated": "2026-06-28",
   "items": [
     {
-      "day": "TI 1.9.",
-      "menu": "Jauhelihakeittoa, leipää, ruokajuomat, kahvi"
+      "day": "Maanantai",
+      "menu": "Makkarakeittoa, leipää, ruokajuomat"
     },
     {
-      "day": "KE 2.9.",
-      "menu": "Makkarakeittoa, leipää, ruokajuomat, kahvi"
+      "day": "Tiistai",
+      "menu": "Jauhelihakeittoa, leipää, ruokajuomat"
     },
     {
-      "day": "TO 3.9.",
-      "menu": "Linssi-kookoskeittoa, leipää, ruokajuomat, kahvi"
+      "day": "Keskiviikko",
+      "menu": "Kasvissosekeittoa, leipää, ruokajuomat"
     },
     {
-      "day": "PE 4.9.",
-      "menu": "Hernekeittoa, leipää, ruokajuomat, kahvi"
+      "day": "Torstai",
+      "menu": "Hernekeittoa, leipää, ruokajuomat, pannari tai jäätelö"
+    },
+    {
+      "day": "Perjantai",
+      "menu": "Lohikeittoa, leivät, ruokajuomat"
     }
   ]
 }
