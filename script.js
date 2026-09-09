@@ -29,11 +29,7 @@ const defaultWeeklyMenu = [
   "Perjantai: Lohikeittoa, leivät, ruokajuomat",
 ].join("\n");
 
-const defaultEventCalendar = [
-  "Torstaisin | klo 18.00 | Kanavakaraoke | Vetäjänä tuttu Timo Kolu.",
-  "Perjantaisin | klo 20.00 | Karaoke | Karaoken tuottaa AJ Viihde.",
-  "Lauantaisin | illalla | Tanssi-iltoja ja elävää musiikkia | Viikonlopun esiintyjät ja ohjelma päivitetään tähän tarpeen mukaan."
-].join("\n");
+const defaultEventCalendar = "";
 
 function setChatOpen(isOpen) {
   if (!chatBox || !chatToggle || !chatMessage) return;
@@ -423,3 +419,4 @@ if (chatForm && chatMessage) {
     chatMessage.value = "";
   });
 }
+
